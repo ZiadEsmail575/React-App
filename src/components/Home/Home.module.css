@@ -1,0 +1,33 @@
+.homebg{
+    background-color: #1abc9c;
+}
+.home{
+    height: 100vh;
+}
+.imgWidth{
+    width: 250px;
+}
+.homeIcon{
+    color: white;
+    position: relative;
+}
+.homeIcon::after{
+    content: "";
+    display: block;
+    width: 5vw;
+    height: 0.7vh;
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    background-color: white;
+}
+.homeIcon::before{
+    content: "";
+    display: block;
+    width: 5vw;
+    height: 0.7vh;
+    position: absolute;
+    top: 50%;
+    right: 90px;
+    background-color: white;
+}

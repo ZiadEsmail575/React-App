@@ -1,0 +1,28 @@
+.aboutBg{
+    background-color: #1abc9c;
+}
+.AboutIcon{
+    position: relative;
+}
+.AboutIcon::after{
+    content: "";
+    display: block;
+    padding: 0 5px;
+    width: 4vw;
+    height: 0.7vh;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    background-color: white;
+}
+.AboutIcon::before{
+    content: "";
+    padding: 0 5px;
+    display: block;
+    width: 4vw;
+    height: 0.7vh;
+    position: absolute;
+    top: 50%;
+    right: 42%;
+    background-color: white;
+}
